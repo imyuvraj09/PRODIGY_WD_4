@@ -1,0 +1,141 @@
+    margin-top: 20px;
+}
+
+.about-section ul,
+.skills-section ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.about-section ul li,
+.skills-section ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.skills-section .skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-section .skills-list li {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Projects section styles */
+.projects-section .project {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section .project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.projects-section .project p {
+    font-size: 1.1em;
+}
+
+.projects-section .project p span{
+    font-weight: bold;
+}
+
+/* Contact section styles */
+.contact-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+}
+
+.contact-section .container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;  /* Added max-width */
+    margin: 0 auto;  /* Center the container */
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-section label {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-section button:hover {
+    background: #ff4500;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons li {
+    margin: 0 10px;
+}
+
+footer .social-icons li a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+footer .social-icons li a:hover {
+    color: #ff6347;
+}
