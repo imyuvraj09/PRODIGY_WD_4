@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <!-- Link your CSS file -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Link to font-awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <h1>Shreya Majhi</h1>
+                <nav>
+                    <ul id="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="nav-toggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="container">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I am a B.Tech 3rd year student.I want to increase my Web Development skills with awesome projects.</p>
+                <img src="Shreya.jpg" height="200px" width="200px" alt="My Photo" class="profile-photo">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello! I am Shreya Majhi,I want to become a Full Stack Web Developer. </p>
+                <h3>Education</h3>
+                <ul>
+                    <li>B.Tech in Information Technology : 9.67 cgpa(now) , MCKV Institute of Engineering</li>
+                    <li>Diploma in Computer Science and Technology : 8.9 cgpa , The Calcutta Technical School</li>
+                    <li>Higher Secondary : 74&percnt; , Bakulia R.N.Institution</li>
+                    <li>Secondary : 81.1&percnt; , Bakulia N.N.Girls High School</li>
+                </ul>
+                <h3>Professional Experience</h3>
+                <ul>
+                    <li>Web Developer Intern at Prodigy InfoTech</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="Skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <ul>
+                        <li><h3>Movie Recommendation System</h3></li>
+                        <p>A movie based recommender system is a software tool that suggests movies to users based on their personal preferences.
+                            <span>Python,HTML,CSS</span>, and <span>JavaScript</span> are used to create this project.</p>
+                    </ul>
+                </div>
+                <!-- Add more projects  -->
+            </div>
+        </section>
+
+    
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        </section>
+
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Shreya Majhi. All rights reserved.</p>
+                <ul class="social-icons">
+                    <li><a href="https://github.com/ShreyaMajhi"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/shreya-majhi-2b3962243/?originalSubdomain=in"><i class="fab fa-linkedin"></i></a></li>
+                    
+                </ul>
+            </div>
+            <p>Made with love &hearts;</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
